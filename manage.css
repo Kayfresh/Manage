@@ -58,7 +58,7 @@
 }
 
 .list-items ul li {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   border-radius: 15px;
   padding: 5px 10px;
   transition: 0.3s ease-in-out;
@@ -514,6 +514,8 @@ footer {
   #sec-2 {
     padding: 0 40px;
     margin: 50px 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .sec-2-left h2 {
@@ -710,10 +712,14 @@ footer {
 
   #sec-2 {
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
   .sec-2-left h2 {
     font-size: 35px;
-    text-align: center;
+    /* text-align: center; */
+    align-items: start;
   }
   .sec-2-left p {
     font-size: 12px;
